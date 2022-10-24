@@ -1,0 +1,101 @@
+---
+created: 2022-03-25T13:41:18-07:00
+updated: 2022-03-25T14:30:26-07:00
+---
+- [Timeline 3d](https://apps.apple.com/us/app/timeline-3d/id929188617?mt=12)
+	- Desktop app, claims no limitations, but has some in-app purchase options
+- [SmartDraw](https://www.smartdraw.com/)
+	- For making lots of different kinds of diagrams
+	- $10/mo
+- [Timestream](https://ntrepidcorp.com/products/timestream/?utm_source=preceden&utm_campaign=timeline-makers)
+	- Strong [[Palantir Gotham]] vibes
+	- Doesn't list pricing; I'm guessing it's high-touch with bespoke pricing like Palantir
+- [Tiki Toki](https://www.tiki-toki.com/)
+	- Beautiful
+	- But very limited in the number of timelines you can make, even with paid accounts
+- [ChronoFlo Timeline Maker](https://www.chronoflotimeline.com/)
+	- Looks great, great UX
+	- Paid account needed to embed on personal site
+	- No private option in the free tier?
+	- Only one timeline available on the free tier
+- [Cascade.page](https://github.com/kochrt/cascade.page)
+	- [Demo site](https://cascade.page/)
+	- Text-to-timeline 
+	- Looks like it's missing multimedia support
+- [http://thetimelineproj.sourceforge.net/](http://thetimelineproj.sourceforge.net/)
+	- Desktop app
+	- Source code available
+	- Looks like it's intended to edit and consume timelines within the app, not on the web
+- [HistoryTimeLine](https://www.historytimeline.com/)
+	- Focused at historians
+	- Desktop app, no Mac version available
+- [ChronoZoom](http://www.chronozoom.com/)
+	- Really neat treemap kind of view for cosmic and geologic time scales
+	- Not useful for family history kind of timelines
+- [Time.graphics](https://time.graphics/)
+	- Really great looking
+	- Supports download and export
+	- Lots of options for managing placement, styling
+	- But relatively expensive ($18.90/mo)
+	- Free tier is extremely limited
+- [Aeon Timeline](https://timeline.app/)
+	- Focused on creative writing, project management
+	- Desktop app
+	- $65 for a five-device, permanent license
+	- Can't tell if it exports to web or not
+- [Liniaa](https://www.liniaa.com/)
+	- Intended for documenting your personal life, which is kind of perfect for my use case
+	- But it was a commercial endeavor, and they couldn't get enough paid users, so it's shut down and has free tier available only
+	- Can't tell if there's any way to export, and I'm not going to put a ton of effort into something that might just disappear
+- [TimelineJS](https://timeline.knightlab.com/)
+	- Technically TimelineJS3, I guess
+	- Super easy to get started
+	- But I'm having some styling difficulties - can't get it to go full screen
+	- Also it lets you view a single headline at a time, and doesn't appear to render media on the timeline, which is a great feature I'd like.
+- [Preceden](https://www.preceden.com/)
+- [timepath](https://timepath.co/)
+	- Doesn't support spans, only point-in-time
+	- Only headline view
+- [Timeline Maker Pro](https://www.timelinemaker.com/)
+	- Focused on investigations and project planning
+- [Timetoast](https://www.timetoast.com/)
+	- Looks like point-in=time timelines, no spans
+	- Thumbnails on the timeline, that's nice
+	- No free tier
+- [Timelines Chart](https://github.com/vasturiano/timelines-chart)
+	- D3js component
+	- No multimedia support that I can tell
+	- No scrolling; all one view
+- [d3-timeline](https://github.com/jiahuang/d3-timeline)
+	- Simple timeline component for d3
+	- Not suitable for our needs
+- [AMCHARTS timeline](https://www.amcharts.com/timeline-chart/)
+	- Very cool, but too slick and not feature rich enough
+	- Paid
+- [Vis.js](https://visjs.org/) timeline component
+	- Actually, that's in the running
+	- Looks very flexible, supports both point-in-time and spans
+	- Supports more levels than TimelineJS
+	- Can be made to support media on the items
+	- Can be edited inline - maybe could then export the data to a file?
+- [patternfly-timeline](https://github.com/patternfly/patternfly-timeline)
+	- Looks more like it's intended for analysis than just perusal
+- [Timemapper](https://github.com/okfn/timemapper)
+	- Make timelines and maps that sync up
+	- Not a good fit, I don't think
+	- Looks like it might use TimelineJS under the hood - the UI is almost the same
+- [Timelinesetter](https://propublica.github.io/timeline-setter/)
+	- more for organizing news by date than organizing lots of things on a timeline
+	- 
+
+
+Examples:
+- [Timelines Chart](https://bl.ocks.org/vasturiano/ded69192b8269a78d2d97e24211e64e0)
+	- Uses the [timelines-chart](https://github.com/vasturiano/timelines-chart) d3js component
+	- It would be interesting to see how our timelines would look with that kind of chart, but it's not ultimately what I'm looking for.
+- [Melbourne 2020 timeline](https://observablehq.com/@didoesdigital/2020-timeline)
+	- Some good stuff, but all point-in-time, no media
+- [D3.js Timeline.v2](https://codepen.io/chris-creditdesign/pen/nKoRaZ)
+	- I like the stacking-without-overlapping look better
+- [Phillosophers timeline](http://igncp-demos.herokuapp.com/d3js/timeline)
+	- I like this one, though we'd have to add in support for popups and media
